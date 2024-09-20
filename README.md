@@ -1,4 +1,4 @@
-# docassemble.Lt3Grievancesampleappealletterhousingauthorityboard
+# docassemble.Lt3GrievanceAppealLetterHousingAuthorityBoard
 
 Lt3-grievance-appeal-letter-housing-authority-board
 

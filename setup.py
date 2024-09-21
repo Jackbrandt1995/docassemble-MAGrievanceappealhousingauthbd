@@ -46,7 +46,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 setup(name='docassemble.MAGrievanceappealhousingauthbd',
       version='1.0',
       description=('Lt3-grievance-appeal-letter-housing-authority-board'),
-      long_description='# docassemble.Lt3Grievancesampleappealletterhousingauthorityboard\r\n\r\nLt3-grievance-appeal-letter-housing-authority-board\r\n\r\n## Author\r\n\r\nJack Brandt\r\n\r\n',
+      long_description='# docassemble.Lt3GrievanceAppealLetterHousingAuthorityBoard\r\n\r\nLt3-grievance-appeal-letter-housing-authority-board\r\n\r\n## Author\r\n\r\nJack Brandt\r\n\r\n',
       long_description_content_type='text/markdown',
       author='Jack Brandt',
       author_email='john.brandt@su.suffolk.edu',

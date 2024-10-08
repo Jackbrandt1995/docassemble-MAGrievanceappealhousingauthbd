@@ -4,17 +4,15 @@ include:
 ---
 metadata:
   title: >-
-    appeal-housing-authority
+    Write an appeal to your housing authority board of commissioners
   short title: >-
-    appeal-housing-authority
+    Write an appeal to your housing authority board of commissioners
   description: |-
-    This interview helps someone in public housing appeal a decision made regarding a grievance to the Housing Authority Board.
+    This interview helps someone in public housing appeal a decision made regarding a grievance to the Housing Authority Board of Commissioners.
   can_I_use_this_form: |
     If you want to appeal the decision regarding your public housing complaint, you can use this interview to write an appeal to the housing authority board.
   before_you_start: |
-    This interview will help you write a letter to appeal decision to the Housing Authority Board.
-    
-     **Be sure to check with your local housing authority - they may have their own template. If that is the case, use their template. This form produces a letter to your housing authority**
+    This interview will help you write a letter to appeal decision to the Housing Authority Board of Commissioners.
         
         Before you get started, please gather:
         
@@ -138,11 +136,9 @@ code: |
 id: appealhousingauthority
 continue button field: appealhousingauthority_intro
 question: |
-  appeal-housing-authority
+  Write an appeal to your housing authority board of commissioners
 subquestion: |
-  This interview will help you write a letter to appeal decision to the Housing Authority Board.
-  
-   **Be sure to check with your local housing authority - they may have their own template. If that is the case, use their template. This form produces a letter to your housing authority**
+  This interview will help you write a letter to appeal decision to the Housing Authority Board of Commissioners.
       
       Before you get started, please gather:
       
@@ -150,46 +146,62 @@ subquestion: |
       2. The facts surrounding your grievance and the action you would like the housing authority to take.
       3. Your housing authority's address.
       
-       When you are finished, you will need to:
+       **When you are finished, you will need to:**
       
       1. Print your letter.
       2. Sign your letter.
       3. Hand deliver or mail your document to the housing authority.
-      4. Verify that you are meeting the time requirements based on the nature of your issue.
-
-  If you want to appeal the decision regarding your public housing complaint, you can use this interview to write an appeal to the housing authority board.
+      
+      4. Verify that you are meeting the time requirements based on your issue.
 
   Most people take about 10 minutes to complete this interview.
 ---
 id: Information
 question: |
-  Information
+  Is this the right form for me?
 subquestion: |
-  This interview will help you write a letter to appeal a decision to the Housing Authority Board.
-    
-    **Be sure to check with your local housing authority first - they may have their own template. If that is the case, use their template. This form produces a letter to your housing authority board.**
-    
-    When prompted, be sure to include the name and address of your housing authority. If you do not know the name of the chair or head of the board, that's okay. Please just provide the name of the office (for example: "Boston Housing Authority")
+  This interview will help you appeal a decision to the Housing Authority Board of Commissioners.
+  
+  Read these statements before you continue: 
+  
+  - I live in public housing.
+
+  - I wrote a complaint.
+
+  - I received a decision *LESS THAN* 14 days ago.
+  
+  - I have *NOT* appealed.
+  
+  - My lease was *NOT* terminated at a hearing.
+
+  - A court has *NOT* ordered me to move.
+  
+  If **ALL** of the statements above are true, click "Next"
+  
 continue button field: Information
 ---
 id: grievance decision date
 question: |
-  grievance_decision_date
+  What is the date on your grievance decision?
 fields:
-  - "What is the date on your grievance decision? You can find this on the notice you received": grievance_decision_date
+  - "You can find this on the notice you received": grievance_decision_date
     datatype: date
 ---
 id: grievance decision
 question: |
-  grievance_decision
+  What decision did the housing authority make?
+subquestion: |
+  Refer to the decision notice you received.
 fields:
-  - "I received the attached grievance decision which said...": grievance_decision
+  - "I received the attached decision which said... (write what the document said the decision was)": grievance_decision
+    datatype: area
 ---
 id: appeal reasons
 question: |
-  appeal_reasons
+  Why do you want to appeal?
 fields:
-  - "I wish to appeal this decision to the Board because...": appeal_reasons
+  - "I want to appeal this decision to the Board because... (tell us why you want to appeal the decision)": appeal_reasons
+    datatype: area
 ---
 id: Don t Forget to Attach Your Grievance Decision to Your Letter
 question: |
@@ -198,9 +210,12 @@ continue button field: Dont_Forget_to_Attach_Your_Grievance_Decision_to_Your_Let
 ---
 id: action requested
 question: |
-  action_requested
+  What will fix the problem?
+subquestion: | 
+  You can say, "I request that the Board of Commissioners reverse the decision." You can add more details if you would like.
 fields:
-  - "I wish the Board to review the decision and... (Explain what you want the housing authority to do to remedy the situation)": action_requested
+  - "I want the Board of Commissioners to... (How can they fix the problem?)": action_requested
+    datatype: area
 ---
 id: preview appealhousingauthority
 question: |
@@ -356,6 +371,3 @@ attachment:
   skip undefined: True
   docx template file: appealhousingauthority.docx
   tagged pdf: True
-
-
-
